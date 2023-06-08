@@ -11,7 +11,7 @@ Here is the list of you can know from this doc:
 	
 	2.How to master the map editor using custom objects.
 	
-	3.How to host a community server in bs which everyone can play on it
+	3.How to host a community server in bs which everyone can play on it **(Both Linux and Windows)**.
 
 Disclaimer
 ---------------------------
