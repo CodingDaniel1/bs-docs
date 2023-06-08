@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Banana Shooter'
 copyright = '2023, Banana Shooter'
 author = 'Daniel'
 
