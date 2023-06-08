@@ -6,6 +6,7 @@ This repository exists to document `Banana Shooter <https://store.steampowered.c
 What you can know from this documentation
 ----------------------------
 Here is the list of you can know from this doc:
+
 	1.How to make a proper map and publish it for everyone to play.
 	
 	2.How to master the map editor using custom objects.
