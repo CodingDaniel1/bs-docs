@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Lumache'
-copyright = '2021, Graziella'
+copyright = '2023, Banana Shooter'
 author = 'Graziella'
 
 release = '0.1'
