@@ -13,4 +13,4 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 	:maxdepth: 1
 	:caption: About
 
-	getting-started
+	about/getting-started
