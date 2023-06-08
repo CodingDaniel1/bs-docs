@@ -8,4 +8,5 @@ Unfortunately you cant make custom mods in game, you have to do that in the Unit
 Once Unity is installed, a project can be created to make custom mods(make sure to choose URP on the create project menu because BS is currently using URP so if your materials arent using the urp shader than it might can not be loaded in the game due to in-compatible)
 
 Make sure you are selecting the 3D URP when creating projects
+
 .. image:: img/urp-in-templates-menu.png
