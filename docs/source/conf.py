@@ -4,7 +4,7 @@
 
 project = 'Lumache'
 copyright = '2023, Banana Shooter'
-author = 'Graziella'
+author = 'Daniel'
 
 release = '0.1'
 version = '0.1.0'
