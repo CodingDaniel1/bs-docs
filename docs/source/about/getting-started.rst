@@ -16,6 +16,7 @@ Import BS Sdk
 Once the 3D Urp project has been created you can then import the official bs sdk into the project:
 
   1.Go to the official `BS Sdk github repository <https://github.com/CodingDaniel1/BSSDK>`_, download the zip file then unzip it
+  
   2.Drag both of the **AssetBundle** and **Scripts** folders into your project:Asset/ , and done you have imported the BS sdk successfully
   
 Testing
