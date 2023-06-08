@@ -25,11 +25,11 @@ To make sure you import the sdk successfully without any errors, its better to d
 
   1.Navigate to the top bar and click AssetBundle->Asset Bundle Creator
   
+  .. image:: img/assetbundle-top-bar.png
+  
   2.Click on the build asset bundle button
   
-  3.If you not having any errors and see this it means the bs sdk has completely imported with no errors and looking forward to make mods, if you do have a error then try to re-click the build button it should work fine then.
+  .. image:: img/assetbundlecreator-showcase.png
   
-.. image:: img/assetbundle-top-bar.png
-
-.. image:: img/assetbundlecreator-showcase.png
+  3.If you not having any errors and see this it means the bs sdk has completely imported with no errors and looking forward to make mods, if you do have a error then try to re-click the build button it should work fine then.
   
