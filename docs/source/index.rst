@@ -35,3 +35,4 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 	:caption: Server
 
 	server/server-hosting
+	server/game-server-login-tokens
