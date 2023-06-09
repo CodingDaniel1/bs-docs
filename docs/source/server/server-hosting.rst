@@ -8,6 +8,7 @@ All BS multiplayer servers are hosted using the Banana Shooter Dedicated Server 
 **Content:**
 
 - :ref:`How To Install Server using SteamCMD <doc_server_hosting:install_with_steamcmd>`
+- :ref:`How to Install Server without SteamCMD <doc_server_hosting:install_without_steamcmd>`
 
 **Windows:**
 
