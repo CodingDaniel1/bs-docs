@@ -111,7 +111,7 @@ How to Launch Server on Windows
 
 7. Once your server is up and running, you can type quit to close the server and start configuring your server config
 
-8. (optional) If you want your server to be visible on the in-game community server list you will need to set a `Login Token <doc_servers_gslt>`_ and configure `Port Forwarding <doc_servers_port_forward>`_.
+8. (optional) If you want your server to be visible on the in-game community server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_port_forward>`.
 
 .. _doc_server_hosting:launch_server_linux:
 
@@ -142,7 +142,7 @@ To launch your server is the almost the same way you do on Windows:
 
 5. The executed command has created a new file directory located in ``.../BSDS/Servers``, called "ExampleServer". This directory is where all the savedata and configuration files are kept. Changing the ``ExampleServer`` Server Name (from step 2) in the batch script to a different name will allow for keeping savedata separate across multiple servers, and for running multiple servers at once.
 
-6. (optional) If you want your server to be visible on the in-game community server list you will need to set a `Login Token <doc_servers_gslt>`_ and configure `Port Forwarding <doc_servers_port_forward>`_.
+6. (optional) If you want your server to be visible on the in-game community server list you will need to set a :ref:`Login Token <doc_servers_gslt>` and configure :ref:`Port Forwarding <doc_servers_port_forward>`.
 
 .. _doc_server_hosting:configure_server:
 
