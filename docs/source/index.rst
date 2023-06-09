@@ -28,3 +28,10 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 	:caption: About
 
 	about/getting-started
+	
+.. toctree::
+	:hidden:
+	:maxdepth: 1
+	:caption: Server
+
+	server/server-hosting
