@@ -50,8 +50,6 @@ How to Install Server using SteamCMD
 
 2. Download the server:
 
-2. Download the server:
-
 .. code-block:: bash
 	
 	app_update 2406780
@@ -65,3 +63,54 @@ How to Install Server using SteamCMD
 	quit
 
 4. The server files are now in the ``...SteamCMD\steamapps\common\U3DS`` directory.
+
+Continue to: :ref:`How to Launch Server on Windows <doc_server_hosting:launch_server_windows>` or :ref:`How to Launch Server on Linux <doc_server_hosting:launch_server_linux>`
+
+.. _doc_server_hosting:install_without_steamcmd:
+
+How to Install Server without SteamCMD
+--------------------------------------
+
+The Banana Shooter Dedicated Server tool can be installed and updated from your Steam Library. The tool is considered its own application, and is managed separately from the Banana Shooter game itself. 
+
+Here is how you can install BSDS without SteamCMD:
+
+1.Navigate to your Steam Library
+
+2.Search for "Banana Shooter Dedicated Server" via the search filter, or enable "Tools" application type filter so that tools are visible.
+
+3.Select "Banana Shooter Dedicated Server" and click install button
+
+To navigate to the server installed directory:
+
+1.Right-click Banana Shooter Dedicated Server in your Steam Library.
+
+2.Select Properties -> Local Files -> Browse
+
+The rest of the documentation assumes you downloaded the Server through SteamCMD, rather than through your Steam Library, so some of the documentation may differ slightly.
+
+Continue to: :ref:`How to Launch Server on Windows <doc_server_hosting:launch_server_windows>` or :ref:`How to Launch Server on Linux <doc_server_hosting:launch_server_linux>`
+
+.. _doc_server_hosting:launch_server_windows:
+
+How to Launch Server on Windows
+-------------------------------
+
+1.Navigate to the ``...\SteamCMD\common\BSDS`` directory.
+
+2.Duplicate the ExampleServer.bat by ``Ctrl+C, Ctrl+V``.
+
+3.Name the ExampleServer - Copy to whatever you want, for example: ``MyServer``.
+
+4.Right-click your server batch file and click on Edit
+
+5.Change your server name ``+ServerName **your server name goes here**``
+
+6.Run your server batch file
+
+7.Once your server is up and running, you can type quit to close the server and start configuring your server config
+
+.. _doc_server_hosting:launch_server_linux:
+
+How to Launch Server on Linux
+-----------------------------
