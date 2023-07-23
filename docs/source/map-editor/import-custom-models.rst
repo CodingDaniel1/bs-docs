@@ -1,4 +1,4 @@
-.. _doc_import-custom-models:
+.. _doc_import_custom_models:
 
 Import Custom Models
 =============================
