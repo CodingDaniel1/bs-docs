@@ -14,3 +14,16 @@ It should look like this
   1. ``Tutorial`` is the name of the map
   2. After ``Tutorial`` its the bunch of random words
   3. ``_model`` means this is a model directory
+
+What is the format of the custom models
+--------------------------------------------
+
+``Directory Name`` -- This is use for understanding the models for you(its not the real model name in the map editor)
+  1. ``config.json`` -- This file contains the name of the model
+  2. ``preview.png`` -- This file is for the previewing in the map editor it is not necessary, it just easier to know what is the model
+  3. ``source.unity3d`` -- This is the actual model you export from Unity or download on the internet
+
+How to import models
+-------------------------------------
+
+
