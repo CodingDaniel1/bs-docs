@@ -27,4 +27,5 @@ How to import models
 -------------------------------------
 
 After understanding the format of a custom model it would really easy to import it to the map editor.
+
 To import you have to create a format of a custom model properly, after doing that simply copy the folder to the ``..\Banana Shooter\Banana Shooter_Data\maps\YOURMAPNAME...._model`` directory, or you can create the folder directly in the model folder.
