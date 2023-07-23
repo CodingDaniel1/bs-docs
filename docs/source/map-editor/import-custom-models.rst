@@ -11,8 +11,6 @@ First you have to save your map first to make sure the game can specify your mod
 .. image:: img/example0.png
 It should look like this
 
-
-
-  ``Tutorial`` is the name of the map
-  after ``Tutorial`` its the bunch of random words
-  ``_model`` means this is a model directory
+  1.``Tutorial`` is the name of the map
+  2.after ``Tutorial`` its the bunch of random words
+  3.``_model`` means this is a model directory
