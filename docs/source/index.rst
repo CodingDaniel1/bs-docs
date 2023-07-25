@@ -23,23 +23,23 @@ Contributing
 Anyone can contribute towards the *Banana Shooter* modding documentation! To submit an issue, go to the `Github repository <https://github.com/CodingDaniel1/bs-docs>`_.
 
 .. toctree::
-	:hidden:
 	:maxdepth: 2
+	:hidden:
 	:caption: About
 
 	about/getting-started
 
 .. toctree::
-	:hidden:
 	:maxdepth: 2
+	:hidden:
 	:caption: Map Editor
 
 	map-editor/import-custom-models
 	map-editor/create-custom-models
 
 .. toctree::
-	:hidden:
 	:maxdepth: 2
+	:hidden:
 	:caption: Server
 
 	server/server-hosting
