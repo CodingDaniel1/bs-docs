@@ -24,13 +24,14 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 2
 	:caption: About
 
 	about/getting-started
 
 .. toctree::
 	:hidden:
+	:maxdepth: 2
 	:caption: Map Editor
 
 	map-editor/import-custom-models
@@ -38,7 +39,7 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 
 .. toctree::
 	:hidden:
-	:maxdepth: 1
+	:maxdepth: 2
 	:caption: Server
 
 	server/server-hosting
