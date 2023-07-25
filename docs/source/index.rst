@@ -31,7 +31,6 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To sub
 
 .. toctree::
 	:hidden:
-	:maxdepth: 3
 	:caption: Map Editor
 
 	map-editor/import-custom-models
