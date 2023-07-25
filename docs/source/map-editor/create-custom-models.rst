@@ -18,7 +18,7 @@ How to setup your model in Unity
 The following text will teach you how to setup your model in Unity, so we can export it to ``source.unity3d`` which the actually file the game can read.
 
 1. Create a folder under the Asset directory called ``Resources`` (It is not necessary to create it, but if you want your project to be organized a bit, I'd recommand to do it)
-2. You can put all of your models into this directory ``Asset\Resources\``, I'd recommand to do some categories for it, like put models into the ``Asset\Resources\Model\`` directory, materials go into the ``Asset\Resources\Materials\`` directory, and so on.
+2. You can put all of your models into this directory ``Asset\Resources\``, I'd recommand to do some categories for it, like putting models into the ``Asset\Resources\Model\`` directory, materials go into the ``Asset\Resources\Materials\`` directory, and so on.
 3. After importing the models, drag it into the scene, name it ``model``, then drag that into the ``Asset\AssetBundles\source`` directory as prefab, if you done this correctly your prefab full name should be ``model.prefab``
 
 How to export your model
