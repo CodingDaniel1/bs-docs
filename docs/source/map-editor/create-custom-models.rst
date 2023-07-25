@@ -6,7 +6,7 @@ Create Custom Models
 What do you need
 -------------------------------
 
-To export your models you will need to install the Unity and import the BS SDK into it.
+To export your models you will need to install the Unity with BS SDK imported.
 
 Full tutorial here:
 
@@ -23,3 +23,10 @@ The following text will teach you how to setup your model in Unity, so we can ex
 
 How to export your model
 -------------------------------
+
+If there is no errors in your Console then you can do the following steps:
+
+1. On the top of your screen, navigate to the ``Asset Bundle->Asset Bundle Creator`` click it
+2. Click ``Build Asset Bundles`` directly, you dont have to play with the settings, ive already setup for you, messed up with the settings might cause some bugs
+3. After building your asset bundles, try to find the actual one under the ``Bundle Versions`` it should be name as ``source.unity3d`` click on it, click on ``Show In Explorer``
+4. If you see a file named ``source.unity3d`` then it means you have successfully exported your model, you can use it in the game then: :ref:`How To Import Custom Models <doc_import_custom_models>`
