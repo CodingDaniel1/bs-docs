@@ -3,11 +3,10 @@
 Getting Started
 ================
 
-Unfortunately you can't make custom mods in game, you have to do that in the Unity Editor. Most 2021.2 LTS versions should be compatible, Banana Shooter currently uses 2021.3.21f1c1. `View Download Links <https://unity.com/releases/editor/whats-new/2021.3.0>`_
+Unfortunately, you can't make custom mods in game, you have to use the Unity Editor. Most 2021.2 LTS versions should be compatible, but Banana Shooter currently uses 2021.3.21f1c1. `View Download Links <https://unity.com/releases/editor/whats-new/2021.3.21>`_
 
-Once Unity is installed, a project can be created to make custom mods **(make sure to choose URP on the create project menu because Banana Shootercurrently uses URP, so if your materials aren't using the URP shader then it mightnot be load in game due to in-compatiblity)**
+Once Unity is installed, create a 3D URP project **(Banana Shooter currently uses 3D URP, so if your materials aren't using the URP shader then they might not load in game due to incompatiblity)**
 
-Make sure you select the 3D URP when creating projects
 
 .. image:: img/urp-in-templates-menu.png
 
@@ -15,11 +14,13 @@ Import BS SDK
 ---------------
 Once the 3D URP project has been created you can then import the official Banana Shooter SDK into the project:
 
-  1. Go to the official `BS Sdk github repository <https://github.com/CodingDaniel1/BSSDK>`_, and download the zip file
-  
+  1. Go to the official `Banana Shooter SDK GitHub repository <https://github.com/CodingDaniel1/BSSDK>`_, and download the zip file
+
+     .. image:: img/bssdk-github-download.png
+
   2. Extract both the **AssetBundle** and **Scripts** folders into your project:Asset/ folder
 
-  3. Delete the `TutorialInfo` folder and you're done. You have imported the BS sdk successfully
+  3. Delete the `TutorialInfo` folder and you're done. You have imported the Banana Shooter Software Development Kit successfully
 
 Testing
 ----------------
