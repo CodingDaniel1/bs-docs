@@ -12,27 +12,27 @@ Once Unity is installed, create a 3D URP project **(Banana Shooter currently use
 
 Import BS SDK
 ---------------
-Once the 3D URP project has been created you can then import the official Banana Shooter SDK into the project:
+Once the 3D URP project has been created, you can import the official Banana Shooter SDK,
 
-  1. Go to the official `Banana Shooter SDK GitHub repository <https://github.com/CodingDaniel1/BSSDK>`_, and download the zip file
+  1. Go to the `Banana Shooter SDK GitHub repository <https://github.com/CodingDaniel1/BSSDK>`_, and **Download ZIP**
 
      .. image:: img/bssdk-github-download.png
 
-  2. Extract both the **AssetBundle** and **Scripts** folders into your project:Asset/ folder
+  2. Extract both the **AssetBundle** and **Scripts** folders into your project's **Asset** folder `[\?] <https://docs.unity.cn/Manual/ImportingAssets.html>`_
 
-  3. Delete the `TutorialInfo` folder and you're done. You have imported the Banana Shooter Software Development Kit successfully
+  3. Delete the **TutorialInfo** folder and you should see an **Asset Bundle** option at the top of the UI, as shown below
 
 Testing
 ----------------
-To make sure you the SDK has imported successfully without any errors, it's best to test it. 
+To make sure the SDK has imported successfully,
 
-  1. Navigate to the top bar and click AssetBundle->Asset Bundle Creator
+  1. Navigate to the top bar and click **Asset Bundle** > **Asset Bundle Creator**
   
   .. image:: img/assetbundle-top-bar.png
   
-  2. Click on the build asset bundle button
+  2. Click on the **Build Asset Bundles** button
   
-  .. image:: img/assetbundlecreator-showcase.png
+  .. image:: img/assetbundlecreator-gui.png
   
-  3. If there are no errors and the button appears below Bundle Versions, it means the Banana Shooter SDK has completely imported with no errors and you can being making mods. If you do have an error, then try to reset setting and click the build button again and it should work fine.
+  3. If there are no errors and the button appears below Bundle Versions, it means the Banana Shooter SDK has completely imported with no errors and you can being making mods. If you do have any errors, then try and Reset Settings and click the build button again and it should work fine.
   
