@@ -3,29 +3,37 @@
 Import Custom Models
 =============================
 
-Where to put models
+Locating Map Files
 ----------------------------------
 
-First you have to save your map first to make sure the game can specify your models correctly. After saving the map please navigate to  ``...\Banana Shooter\Banana Shooter_Data\maps\``. If you saved the map properly you can see a folder called ``YOUR MAP NAME bunch of random letters_model``
+1. First you need to save the map you intend to import a model to. To do this, in the map editor press ``File > Save As`` to save as a new map or ``File > Save`` if you've already saved the map before
+2. Next you're going to have to locate your map in File Explorer. Start by opening your game files `[?] <https://steamcommunity.com/sharedfiles/filedetails/?id=3012051276>`_ then navigate to  ``Banana Shooter_Data\maps\``. If you saved the map properly you'll find a folder called ``{yourMapName}{randomNumbersAndLetters}_model``, like below
 
 .. image:: img/example0.png
-It should look like this
+The name structure is as follows
 
   1. ``Tutorial`` is the name of the map
-  2. After ``Tutorial`` its the bunch of random words
-  3. ``_model`` means this is a model directory
+  2. ``sho2ky0inss2pjjq`` are random numbers and letters used to uniquely identify the map, so you can save mulitple maps with the same name
+  3. ``_model`` means this folder is a model folder. Other suffixes include ``_audio`` for custom Audio Sources and ``_texture`` for custom Textures
 
-What is the format of the custom models
+Custom Model Folder Structure
 --------------------------------------------
 
-``Directory Name`` -- This is use for understanding the models for you(its not the real model name in the map editor)
-  1. ``config.json`` -- This file contains the name of the model
-  2. ``preview.png`` -- This file is for the previewing in the map editor it is not necessary, it just easier to know what is the model
-  3. ``source.unity3d`` -- This is the actual model you export from Unity or download on the internet
+Custom models each have their own folders containing 3 files 
 
-How to import models
+``Directory Name`` -- This is the name of the folder your model is stored in. It is not the name of the model in the map editor
+  1. ``config.json`` -- This file contains the name of the model used in the map editor
+  2. ``preview.png`` -- This file is the image for the model using in the map editor. It is not needed, but will make it easier to know what the model is
+  3. ``source.unity3d`` -- This is the actual model exported from unity using the BS SDK (:ref:`How To Create Custom Models <doc_create-custom-models>`) or downloaded online
+
+Importing Models
 -------------------------------------
 
-After understanding the format of a custom model it would really easy to import it to the map editor.
+Now that you know where you're putting your model and understand the folder structure, this part is really easy
 
-To import you have to create a format of a custom model properly, after doing that simply copy the folder to the ``..\Banana Shooter\Banana Shooter_Data\maps\YOURMAPNAME...._model`` directory, or you can create the folder directly in the model folder.
+1. Create a new folder in the ``_model`` folder of choice and name it what you want
+2. Navigate back to your Banana Shooter game files and go to ``src\pre-custom-models\Daniel Testing Map Editor`` and copy the config.json file to your model folder. You can edit it to change the name of the model in the map editor
+3. Copy your ``source.unity3d`` model into the mod folder. Do not change the file name
+4. Optionally, you can make a ``preview.png`` image to show up in the editor, to make it easier to identify the model
+
+Now when you open the map in the map editor, you should find the model in the model category
