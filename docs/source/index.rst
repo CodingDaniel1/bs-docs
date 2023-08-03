@@ -44,3 +44,4 @@ Anyone can contribute towards the *Banana Shooter* modding documentation! To mak
 
 	server/server-hosting
 	server/game-server-login-tokens
+	server/enabling-workshop
