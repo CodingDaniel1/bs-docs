@@ -15,7 +15,7 @@ These docs cover the following aspects:
 
 Disclaimer
 ---------------------------
-The map editor is still in beta so it might be a little buggy but the most part of it is working great. If you find any issues please report them in the `Official Discord Server <discord.gg/bananashooter>`_
+The map editor is still in beta so it might be a little buggy but the most part of it is working great. If you find any issues please report them in the `Official Discord Server <https://discord.gg/bananashooter>`_
 
 Contributing
 ----------------------------------
