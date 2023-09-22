@@ -1,4 +1,6 @@
 .. _doc_demo_camera:
 
-This page hasnt been updated yet.
+Demo Camera
 ================================
+
+This page hasnt been updated yet
