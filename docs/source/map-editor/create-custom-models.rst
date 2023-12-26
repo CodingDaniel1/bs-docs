@@ -29,7 +29,7 @@ First, we need to set everything up in Unity, so we can export models as ``sourc
 
 .. image:: img/hierarchy-gui.png
 
-7. This will open a propmt. Select **Original Prefab**
+7. This will open a prompt. Select **Original Prefab**
 
 .. image:: img/prefab-popup.png
 
