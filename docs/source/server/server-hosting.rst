@@ -22,10 +22,17 @@ All BS multiplayer servers are hosted using the Banana Shooter Dedicated Server 
 
 How to Install SteamCMD on Windows
 ----------------------------------
+Traditional method:
 
 1. `Download From Here <https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip>`_
 2. Extract the contents of the zip somewhere you can easily find it again
 3. Run ``steamcmd.exe``
+
+Winget (requires Windows 11 or Windows 10 20H2 & later)
+
+1. Open the Terminal app (Windows 11) or Powershell app (Windows 11 & 10)
+2. Type in ``winget install Valve.SteamCMD`` and press enter
+3. Restart Terminal/Powershell and type in ``steamcmd``
 
 Continue to: `How to Install Server using SteamCMD <How-to-Install-Server-using-SteamCMD>`_
 
@@ -42,6 +49,7 @@ Continue to: :ref:`How to Install Server using SteamCMD <doc_server_hosting:inst
 
 How to Install Server using SteamCMD
 ------------------------------------
+**Due to unknown issues, BSDS often does not install all files. If this is the case for you, please join the Banana Shooter Discord Server for assistance**
 
 1. Login to Steam anonymously:
 
@@ -64,6 +72,7 @@ How to Install Server using SteamCMD
 	quit
 
 4. The server files are now in ``...SteamCMD\steamapps\common\BSDS``
+5. If you installed SteamCMD via Winget, it is installed to ``%localappdata%\microsoft\winget\packages\Valve.SteamCMD_Microsoft.Winget.Source_8wekyb3d8bbwe``
 
 Continue to: :ref:`How to Launch Server on Windows <doc_server_hosting:launch_server_windows>` or :ref:`How to Launch Server on Linux <doc_server_hosting:launch_server_linux>`
 
@@ -71,6 +80,7 @@ Continue to: :ref:`How to Launch Server on Windows <doc_server_hosting:launch_se
 
 How to Install Server without SteamCMD
 --------------------------------------
+**Due to unknown issues, BSDS often does not install all files. If this is the case for you, please join the Banana Shooter Discord Server for assistance**
 
 The Banana Shooter Dedicated Server tool can be installed and updated from your Steam Library. The tool is considered its own application, and is managed separately from the Banana Shooter game itself. 
 
